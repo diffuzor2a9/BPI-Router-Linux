@@ -1,0 +1,33 @@
+/home/diffuzor/bpi-r4/BPI-Router-Linux/scripts/Makefile.dtbs:20: .dtbo is not applied to any base: mt7988a-bananapi-bpi-r4-nand.dtbo mt7988a-bananapi-bpi-r4-pro-4e-wan-phy.dtbo mt7988a-bananapi-bpi-r4-pro-4e-wan-sfp.dtbo mt7988a-bananapi-bpi-r4-pro-8x-lan-phy.dtbo mt7988a-bananapi-bpi-r4-pro-8x-lan-sfp.dtbo mt7988a-bananapi-bpi-r4-pro-8x-wan-phy.dtbo mt7988a-bananapi-bpi-r4-pro-8x-wan-sfp.dtbo mt7988a-bananapi-bpi-r4-pro-fpc.dtbo mt7988a-bananapi-bpi-r4-wifi-be14.dtbo
+/home/diffuzor/bpi-r4/BPI-Router-Linux/arch/arm64/boot/dts/mediatek/mt7987a-bananapi-bpi-r4-lite-mikrobus.dtsi:24.3-10: Warning (ranges_format): /mikro-bus:ranges: empty "ranges" property but its #address-cells (0) differs from / (2)
+/home/diffuzor/bpi-r4/BPI-Router-Linux/arch/arm64/boot/dts/mediatek/mt7987a-bananapi-bpi-r4-lite-mikrobus.dtsi:24.3-10: Warning (ranges_format): /mikro-bus:ranges: empty "ranges" property but its #size-cells (0) differs from / (2)
+/home/diffuzor/bpi-r4/BPI-Router-Linux/arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-nand.dtso:17.2-29: Warning (reg_format): /fragment@0/__overlay__:reg: property has invalid length (8 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-nand.dtbo: Warning (pci_device_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-nand.dtbo: Warning (pci_device_bus_num): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-nand.dtbo: Warning (i2c_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-nand.dtbo: Warning (spi_bus_reg): Failed prerequisite 'reg_format'
+/home/diffuzor/bpi-r4/BPI-Router-Linux/arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-nand.dtso:16.58-18.3: Warning (avoid_default_addr_size): /fragment@0/__overlay__: Relying on default #address-cells value
+/home/diffuzor/bpi-r4/BPI-Router-Linux/arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-nand.dtso:16.58-18.3: Warning (avoid_default_addr_size): /fragment@0/__overlay__: Relying on default #size-cells value
+/home/diffuzor/bpi-r4/BPI-Router-Linux/arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-wifi-be14.dtso:22.3-16: Warning (reg_format): /fragment@0/__overlay__/eeprom@50:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/diffuzor/bpi-r4/BPI-Router-Linux/arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-wifi-be14.dtso:31.3-26: Warning (reg_format): /fragment@1/__overlay__/pcie@0,0:reg: property has invalid length (20 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-wifi-be14.dtbo: Warning (pci_device_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-wifi-be14.dtbo: Warning (pci_device_bus_num): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-wifi-be14.dtbo: Warning (i2c_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-wifi-be14.dtbo: Warning (spi_bus_reg): Failed prerequisite 'reg_format'
+/home/diffuzor/bpi-r4/BPI-Router-Linux/arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-wifi-be14.dtso:20.12-26.4: Warning (avoid_default_addr_size): /fragment@0/__overlay__/eeprom@50: Relying on default #address-cells value
+/home/diffuzor/bpi-r4/BPI-Router-Linux/arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-wifi-be14.dtso:20.12-26.4: Warning (avoid_default_addr_size): /fragment@0/__overlay__/eeprom@50: Relying on default #size-cells value
+/home/diffuzor/bpi-r4/BPI-Router-Linux/arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-wifi-be14.dtso:30.11-279.4: Warning (avoid_default_addr_size): /fragment@1/__overlay__/pcie@0,0: Relying on default #address-cells value
+/home/diffuzor/bpi-r4/BPI-Router-Linux/arch/arm64/boot/dts/mediatek/mt7988a-bananapi-bpi-r4-wifi-be14.dtso:30.11-279.4: Warning (avoid_default_addr_size): /fragment@1/__overlay__/pcie@0,0: Relying on default #size-cells value
+/home/diffuzor/bpi-r4/BPI-Router-Linux/fs/binfmt_elf.c: In function 'parse_elf_properties':
+/home/diffuzor/bpi-r4/BPI-Router-Linux/fs/binfmt_elf.c:830:1: warning: the frame size of 1040 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+  830 | }
+      | ^
+In file included from /home/diffuzor/bpi-r4/BPI-Router-Linux/fs/compat_binfmt_elf.c:154:
+/home/diffuzor/bpi-r4/BPI-Router-Linux/fs/binfmt_elf.c: In function 'parse_elf_properties.isra':
+/home/diffuzor/bpi-r4/BPI-Router-Linux/fs/binfmt_elf.c:830:1: warning: the frame size of 1040 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+  830 | }
+      | ^
+/home/diffuzor/bpi-r4/BPI-Router-Linux/drivers/net/phy/phylink.c: In function 'phylink_create':
+/home/diffuzor/bpi-r4/BPI-Router-Linux/drivers/net/phy/phylink.c:2157:1: warning: label 'free_pl' defined but not used [-Wunused-label]
+ 2157 | free_pl:
+      | ^~~~~~~
